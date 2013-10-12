@@ -1,6 +1,5 @@
 package com.netflix.custom.protocol;
 
-import com.sun.istack.internal.Nullable;
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.ByteBufProcessor;
 import io.netty.buffer.CompositeByteBuf;
@@ -9,6 +8,7 @@ import io.netty.handler.codec.ReplayingDecoder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javax.annotation.Nullable;
 import java.util.List;
 
 /**

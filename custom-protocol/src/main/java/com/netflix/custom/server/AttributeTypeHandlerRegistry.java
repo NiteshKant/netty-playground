@@ -2,7 +2,6 @@ package com.netflix.custom.server;
 
 import com.netflix.custom.protocol.Attribute;
 import com.netflix.custom.protocol.CustomProtocolConstants;
-import com.sun.istack.internal.Nullable;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelHandlerContext;
@@ -10,6 +9,7 @@ import io.netty.channel.DefaultChannelPromise;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javax.annotation.Nullable;
 import java.util.HashMap;
 import java.util.Map;
 
