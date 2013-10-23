@@ -38,3 +38,15 @@ project(':custom-protocol') {
         testCompile 'junit:junit:4.10'
     }
 }
+
+project(':sse') {
+    dependencies {
+        compile project(':custom-protocol')
+        compile 'com.google.guava:guava:11.0.2'
+        compile 'org.slf4j:slf4j-api:1.6.3'
+        runtime 'org.slf4j:slf4j-simple:1.7.0'
+        compile 'io.netty:netty-handler:4.0.9.Final'
+        compile 'io.netty:netty-codec-http:4.0.9.Final'
+        testCompile 'junit:junit:4.10'
+    }
+}

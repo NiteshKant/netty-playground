@@ -1,2 +1,2 @@
 rootProject.name='netty-playground'
-include 'custom-protocol'
+include 'custom-protocol', 'sse'

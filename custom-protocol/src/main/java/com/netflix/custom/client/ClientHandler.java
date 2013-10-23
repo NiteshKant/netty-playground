@@ -17,10 +17,12 @@ package com.netflix.custom.client;
 
 import com.netflix.custom.protocol.Attribute;
 import com.netflix.custom.server.StreamAttributeHandler;
+import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
+import io.netty.util.CharsetUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
  *
  * @author Nitesh Kant
 */
-class ServerHandler extends SimpleChannelInboundHandler<Attribute> {
+public class ServerHandler extends SimpleChannelInboundHandler<Attribute> {
 
     private static final Logger logger = LoggerFactory.getLogger(ServerHandler.class);
 
