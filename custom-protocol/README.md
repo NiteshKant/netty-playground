@@ -24,9 +24,11 @@ Implementation main class: com.netflix.custom.server.CustomProtocolServer
 
 A server that receives messages in this protocol and sends back responses it knows how to handle an attribute.
 For any unknown attributes, it sends an "error" attribute with the error message.
-By default, the server handles the following attributes
- ##### "ping" Returns an attribute "pong" with no value.
- ##### "stream" If the value is an integer 'n', then schedules to send an attribute "data" every 'n' seconds, otherwise every 1 second.
+By default, the server handles the following attributes:
+
+ 1) "ping": Returns an attribute "pong" with no value.
+ 
+ 2) "stream": If the value is an integer 'n', then schedules to send an attribute "data" every 'n' seconds, otherwise every 1 second.
 
 ### Client
 
