@@ -1,2 +1,2 @@
 rootProject.name='netty-playground'
-include 'custom-protocol', 'sse'
+include 'custom-protocol','http-pipelining', 'sse'
